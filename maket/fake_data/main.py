@@ -36,17 +36,17 @@ def connect_mqtt():
 def publish(client,data):
     while True:
         for i in data:
-            result = client.publish(topic1, i[0]+'V')
-            result = client.publish(topic2, i[1]+'V')
-            result = client.publish(topic3, i[2]+'V')
-            result = client.publish(topic4, i[3]+'%')
-            result = client.publish(topic5, i[4]+'A')
-            result = client.publish(topic6, i[5]+'A')
-            result = client.publish(topic7, i[6]+'A')
-            result = client.publish(topic8, i[7]+'%')
-            result = client.publish(topic9, i[8]+'%')
-            result = client.publish(topic10, i[9]+'%')
-            time.sleep(1)
+            result = client.publish(topic1, i[0])
+            result = client.publish(topic2, i[1])
+            result = client.publish(topic3, i[2])
+            result = client.publish(topic4, i[3])
+            result = client.publish(topic5, i[4])
+            result = client.publish(topic6, i[5])
+            result = client.publish(topic7, i[6])
+            result = client.publish(topic8, i[7])
+            result = client.publish(topic9, i[8])
+            #result = client.publish(topic10, i[9]+'%')
+            time.sleep(3)
 
 
 def main():
@@ -60,10 +60,7 @@ def main():
             a = ','.join(row)
             b = a.split(',')
             fake_data.append(b)
-    #print(*fake_data)
     publish(client,fake_data)
-    #for i in fake_data:
-        #print(i[0],i[1],i[2],i[3],i[4],i[5],i[6],i[7],i[8],sep = ' ')
 
 
 if __name__ == '__main__':
