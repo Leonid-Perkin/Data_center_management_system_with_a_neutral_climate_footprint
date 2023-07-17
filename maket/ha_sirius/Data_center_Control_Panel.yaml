@@ -440,4 +440,104 @@ elements:
       font-size: 20px
       color: blue
       font-family: Helvetica
+  - type: state-label
+    entity: sensor.tasmota1_bme280_temperature
+    style:
+      top: 94.5%
+      left: 23.5%
+      background: center / contain no-repeat url("/assets/arsaboo/icons/ecobee_blank.png")
+      text-align: center
+      font-size: 20px
+      color: blue
+      font-family: Helvetica
+  - type: state-label
+    entity: sensor.tasmota1_bme280_temperature
+    style:
+      top: 84.5%
+      left: 31.5%
+      background: center / contain no-repeat url("/assets/arsaboo/icons/ecobee_blank.png")
+      text-align: center
+      font-size: 20px
+      color: blue
+      font-family: Helvetica
+  - type: state-label
+    entity: sensor.tasmota1_bme280_temperature
+    style:
+      top: 84.5%
+      left: 40%
+      background: center / contain no-repeat url("/assets/arsaboo/icons/ecobee_blank.png")
+      text-align: center
+      font-size: 20px
+      color: blue
+      font-family: Helvetica
+  - type: state-label
+    entity: sensor.tasmota1_bme280_temperature
+    style:
+      top: 84.5%
+      left: 48%
+      background: center / contain no-repeat url("/assets/arsaboo/icons/ecobee_blank.png")
+      text-align: center
+      font-size: 20px
+      color: blue
+      font-family: Helvetica
+  - type: state-label
+    entity: sensor.tasmota1_bme280_temperature
+    style:
+      top: 84.5%
+      left: 55.5%
+      background: center / contain no-repeat url("/assets/arsaboo/icons/ecobee_blank.png")
+      text-align: center
+      font-size: 20px
+      color: blue
+      font-family: Helvetica
+  - type: state-label
+    entity: sensor.tasmota1_bme280_temperature
+    style:
+      top: 84.5%
+      left: 63.5%
+      background: center / contain no-repeat url("/assets/arsaboo/icons/ecobee_blank.png")
+      text-align: center
+      font-size: 20px
+      color: blue
+      font-family: Helvetica
+  - type: state-label
+    entity: sensor.tasmota1_bme280_temperature
+    style:
+      top: 84.5%
+      left: 71.5%
+      background: center / contain no-repeat url("/assets/arsaboo/icons/ecobee_blank.png")
+      text-align: center
+      font-size: 20px
+      color: blue
+      font-family: Helvetica
+  - type: state-label
+    entity: sensor.tasmota1_bme280_temperature
+    style:
+      top: 84.5%
+      left: 79.5%
+      background: center / contain no-repeat url("/assets/arsaboo/icons/ecobee_blank.png")
+      text-align: center
+      font-size: 20px
+      color: blue
+      font-family: Helvetica
+  - type: state-label
+    entity: sensor.tasmota1_bme280_temperature
+    style:
+      top: 84.5%
+      left: 87.5%
+      background: center / contain no-repeat url("/assets/arsaboo/icons/ecobee_blank.png")
+      text-align: center
+      font-size: 20px
+      color: blue
+      font-family: Helvetica
+  - type: state-label
+    entity: sensor.tasmota1_bme280_temperature
+    style:
+      top: 84.5%
+      left: 95.5%
+      background: center / contain no-repeat url("/assets/arsaboo/icons/ecobee_blank.png")
+      text-align: center
+      font-size: 20px
+      color: blue
+      font-family: Helvetica
 image: /local/images/DC_master.png
