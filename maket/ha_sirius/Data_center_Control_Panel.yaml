@@ -150,4 +150,94 @@ elements:
       font-size: 16px
       color: blue
       font-family: Helvetica
+  - type: state-label
+    entity: sensor.tz3000_gvn91tmx_ts011f_rms_current
+    style:
+      top: 53%
+      left: 86.5%
+      background: center / contain no-repeat url("/assets/arsaboo/icons/ecobee_blank.png")
+      text-align: center
+      font-size: 16px
+      color: blue
+      font-family: Helvetica
+  - type: state-label
+    entity: sensor.tz3000_gvn91tmx_ts011f_rms_current
+    style:
+      top: 53%
+      left: 91.5%
+      background: center / contain no-repeat url("/assets/arsaboo/icons/ecobee_blank.png")
+      text-align: center
+      font-size: 16px
+      color: blue
+      font-family: Helvetica
+  - type: state-label
+    entity: sensor.tz3000_gvn91tmx_ts011f_rms_current
+    style:
+      top: 53%
+      left: 97%
+      background: center / contain no-repeat url("/assets/arsaboo/icons/ecobee_blank.png")
+      text-align: center
+      font-size: 16px
+      color: blue
+      font-family: Helvetica
+  - type: state-label
+    entity: sensor.tz3000_gvn91tmx_ts011f_rms_current
+    style:
+      top: 56.5%
+      left: 86.5%
+      background: center / contain no-repeat url("/assets/arsaboo/icons/ecobee_blank.png")
+      text-align: center
+      font-size: 16px
+      color: blue
+      font-family: Helvetica
+  - type: state-label
+    entity: sensor.tz3000_gvn91tmx_ts011f_rms_current
+    style:
+      top: 56.5%
+      left: 91.5%
+      background: center / contain no-repeat url("/assets/arsaboo/icons/ecobee_blank.png")
+      text-align: center
+      font-size: 16px
+      color: blue
+      font-family: Helvetica
+  - type: state-label
+    entity: sensor.tz3000_gvn91tmx_ts011f_rms_current
+    style:
+      top: 56.5%
+      left: 97%
+      background: center / contain no-repeat url("/assets/arsaboo/icons/ecobee_blank.png")
+      text-align: center
+      font-size: 16px
+      color: blue
+      font-family: Helvetica
+  - type: state-label
+    entity: sensor.tz3000_gvn91tmx_ts011f_active_power
+    style:
+      top: 60.5%
+      left: 86.5%
+      background: center / contain no-repeat url("/assets/arsaboo/icons/ecobee_blank.png")
+      text-align: center
+      font-size: 16px
+      color: blue
+      font-family: Helvetica
+  - type: state-label
+    entity: sensor.tz3000_gvn91tmx_ts011f_active_power
+    style:
+      top: 60.5%
+      left: 91.5%
+      background: center / contain no-repeat url("/assets/arsaboo/icons/ecobee_blank.png")
+      text-align: center
+      font-size: 16px
+      color: blue
+      font-family: Helvetica
+  - type: state-label
+    entity: sensor.tz3000_gvn91tmx_ts011f_active_power
+    style:
+      top: 60.5%
+      left: 97%
+      background: center / contain no-repeat url("/assets/arsaboo/icons/ecobee_blank.png")
+      text-align: center
+      font-size: 16px
+      color: blue
+      font-family: Helvetica
 image: /local/images/ЦОД.png
