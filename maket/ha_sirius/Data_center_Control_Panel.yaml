@@ -4,7 +4,7 @@ elements:
     entity: sensor.tasmota1_bme280_temperature
     style:
       top: 25%
-      left: 56%
+      left: 55.5%
       background: center / contain no-repeat url("/assets/arsaboo/icons/ecobee_blank.png")
       text-align: center
       font-size: 42px
@@ -640,4 +640,4 @@ elements:
       font-size: 20px
       color: blue
       font-family: Helvetica
-image: /local/images/DC_master.png
+image: /local/images/DC_master2.jpg
