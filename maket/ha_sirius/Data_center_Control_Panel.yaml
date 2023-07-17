@@ -371,7 +371,7 @@ elements:
       color: blue
       font-family: Helvetica
   - type: state-label
-    entity: sensor.ewelink_th01_temperature
+    entity: sensor.tasmota1_bme280_temperature
     style:
       top: 84.5%
       left: 48%
@@ -381,7 +381,7 @@ elements:
       color: blue
       font-family: Helvetica
   - type: state-label
-    entity: sensor.ewelink_th01_temperature
+    entity: sensor.tasmota1_bme280_temperature
     style:
       top: 84.5%
       left: 55.5%
@@ -391,7 +391,7 @@ elements:
       color: blue
       font-family: Helvetica
   - type: state-label
-    entity: sensor.ewelink_th01_temperature
+    entity: sensor.tasmota1_bme280_temperature
     style:
       top: 84.5%
       left: 63.5%
@@ -401,7 +401,7 @@ elements:
       color: blue
       font-family: Helvetica
   - type: state-label
-    entity: sensor.ewelink_th01_temperature
+    entity: sensor.tasmota1_bme280_temperature
     style:
       top: 84.5%
       left: 71.5%
@@ -411,7 +411,7 @@ elements:
       color: blue
       font-family: Helvetica
   - type: state-label
-    entity: sensor.ewelink_th01_temperature
+    entity: sensor.tasmota1_bme280_temperature
     style:
       top: 84.5%
       left: 79.5%
@@ -421,7 +421,7 @@ elements:
       color: blue
       font-family: Helvetica
   - type: state-label
-    entity: sensor.ewelink_th01_temperature
+    entity: sensor.tasmota1_bme280_temperature
     style:
       top: 84.5%
       left: 87.5%
@@ -431,7 +431,7 @@ elements:
       color: blue
       font-family: Helvetica
   - type: state-label
-    entity: sensor.ewelink_th01_temperature
+    entity: sensor.tasmota1_bme280_temperature
     style:
       top: 84.5%
       left: 95.5%
