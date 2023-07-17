@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="200" src="http://gitea:3000/leonid.perkin/rosatom/raw/branch/main/logo/logo_rosatom.png" alt="logo">
+  <img width="200" src="https://github.com/Leonid27-07/Data_center_management_system_with_a_neutral_climate_footprint/blob/4381fb28c851c05335cbc266d7be1b59d0559c45/logo/logo_rosatom.png" alt="logo">
   <img height="230" src="http://gitea:3000/leonid.perkin/rosatom/raw/branch/main/logo/logo_sirius.png" alt="logo">
   <h1 align="center" style="margin: 0 auto 0 auto;">Система управления ЦОД с нейтральным климатическим следом</h1>
   <h3 align="center" style="margin: 0 auto 0 auto;">Управляй ЦОД с заботой о климате!</h3>
