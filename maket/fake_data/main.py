@@ -5,16 +5,16 @@ from paho.mqtt import client as mqtt_client
 
 broker = '10.3.141.89'
 port = 1883
-topic1 = "python/Voltage1"
-topic2 = "python/Voltage2"
-topic3 = "python/Voltage3"
-topic4 = "python/Humiditly1"
-topic5 = "python/Rms1"
-topic6 = "python/Rms2"
-topic7 = "python/Rms3"
-topic8 = "python/Active_power1"
-topic9 = "python/Active_power2"
-topic10 = "python/Active_power3"
+topic1 = "python/DC_Voltage1"
+topic2 = "python/DC_Voltage2"
+topic3 = "python/DC_Voltage3"
+topic4 = "python/DC_Humiditly1"
+topic5 = "python/DC_Rms1"
+topic6 = "python/DC_Rms2"
+topic7 = "python/DC_Rms3"
+topic8 = "python/DC_Active_power1"
+topic9 = "python/DC_Active_power2"
+topic10 = "python/DC_Active_power3"
 client_id = f'python-mqtt-{random.randint(0, 1000)}'
 username = 'rosatom'
 password = 'rosatom'
@@ -45,7 +45,7 @@ def publish(client,data):
             result = client.publish(topic7, i[6])
             result = client.publish(topic8, i[7])
             result = client.publish(topic9, i[8])
-            #result = client.publish(topic10, i[9]+'%')
+            result = client.publish(topic10, i[9])
             time.sleep(3)
 
 
@@ -54,7 +54,7 @@ def main():
     client.loop_start()
     
     fake_data = []
-    with open('csvFile.csv', newline='') as File:  
+    with open('DC.csv', newline='') as File:  
         data = csv.reader(File)
         for row in data:
             a = ','.join(row)
