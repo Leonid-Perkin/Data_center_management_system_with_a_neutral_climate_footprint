@@ -1,0 +1,353 @@
+type: picture-elements
+elements:
+  - type: state-label
+    entity: sensor.dc_voltage1
+    style:
+      top: 3%
+      left: 17%
+      background: center / contain no-repeat url("/assets/arsaboo/icons/ecobee_blank.png")
+      text-align: center
+      font-size: 16px
+      color: blue
+      font-family: Helvetica
+  - type: state-label
+    entity: sensor.dc_voltage1
+    style:
+      top: 3%
+      left: 37%
+      background: center / contain no-repeat url("/assets/arsaboo/icons/ecobee_blank.png")
+      text-align: center
+      font-size: 16px
+      color: blue
+      font-family: Helvetica
+  - type: state-label
+    entity: sensor.dc_voltage1
+    style:
+      top: 3%
+      left: 57%
+      background: center / contain no-repeat url("/assets/arsaboo/icons/ecobee_blank.png")
+      text-align: center
+      font-size: 16px
+      color: blue
+      font-family: Helvetica
+  - type: state-label
+    entity: sensor.dc_voltage1
+    style:
+      top: 3%
+      left: 77%
+      background: center / contain no-repeat url("/assets/arsaboo/icons/ecobee_blank.png")
+      text-align: center
+      font-size: 16px
+      color: blue
+      font-family: Helvetica
+  - type: state-label
+    entity: sensor.dc_voltage1
+    style:
+      top: 3%
+      left: 97%
+      background: center / contain no-repeat url("/assets/arsaboo/icons/ecobee_blank.png")
+      text-align: center
+      font-size: 16px
+      color: blue
+      font-family: Helvetica
+  - type: state-label
+    entity: sensor.dc_voltage2
+    style:
+      top: 6.7%
+      left: 17%
+      background: center / contain no-repeat url("/assets/arsaboo/icons/ecobee_blank.png")
+      text-align: center
+      font-size: 16px
+      color: blue
+      font-family: Helvetica
+  - type: state-label
+    entity: sensor.dc_voltage2
+    style:
+      top: 6.7%
+      left: 37%
+      background: center / contain no-repeat url("/assets/arsaboo/icons/ecobee_blank.png")
+      text-align: center
+      font-size: 16px
+      color: blue
+      font-family: Helvetica
+  - type: state-label
+    entity: sensor.dc_voltage2
+    style:
+      top: 6.7%
+      left: 57%
+      background: center / contain no-repeat url("/assets/arsaboo/icons/ecobee_blank.png")
+      text-align: center
+      font-size: 16px
+      color: blue
+      font-family: Helvetica
+  - type: state-label
+    entity: sensor.dc_voltage2
+    style:
+      top: 6.7%
+      left: 77%
+      background: center / contain no-repeat url("/assets/arsaboo/icons/ecobee_blank.png")
+      text-align: center
+      font-size: 16px
+      color: blue
+      font-family: Helvetica
+  - type: state-label
+    entity: sensor.dc_voltage2
+    style:
+      top: 6.7%
+      left: 97%
+      background: center / contain no-repeat url("/assets/arsaboo/icons/ecobee_blank.png")
+      text-align: center
+      font-size: 16px
+      color: blue
+      font-family: Helvetica
+  - type: state-label
+    entity: sensor.dc_voltage3
+    style:
+      top: 10%
+      left: 17%
+      background: center / contain no-repeat url("/assets/arsaboo/icons/ecobee_blank.png")
+      text-align: center
+      font-size: 16px
+      color: blue
+      font-family: Helvetica
+  - type: state-label
+    entity: sensor.dc_voltage3
+    style:
+      top: 10%
+      left: 37%
+      background: center / contain no-repeat url("/assets/arsaboo/icons/ecobee_blank.png")
+      text-align: center
+      font-size: 16px
+      color: blue
+      font-family: Helvetica
+  - type: state-label
+    entity: sensor.dc_voltage3
+    style:
+      top: 10%
+      left: 57%
+      background: center / contain no-repeat url("/assets/arsaboo/icons/ecobee_blank.png")
+      text-align: center
+      font-size: 16px
+      color: blue
+      font-family: Helvetica
+  - type: state-label
+    entity: sensor.dc_voltage3
+    style:
+      top: 10%
+      left: 77%
+      background: center / contain no-repeat url("/assets/arsaboo/icons/ecobee_blank.png")
+      text-align: center
+      font-size: 16px
+      color: blue
+      font-family: Helvetica
+  - type: state-label
+    entity: sensor.dc_voltage3
+    style:
+      top: 10%
+      left: 97%
+      background: center / contain no-repeat url("/assets/arsaboo/icons/ecobee_blank.png")
+      text-align: center
+      font-size: 16px
+      color: blue
+      font-family: Helvetica
+  - type: state-label
+    entity: sensor.dc_rms1
+    style:
+      top: 13.5%
+      left: 17%
+      background: center / contain no-repeat url("/assets/arsaboo/icons/ecobee_blank.png")
+      text-align: center
+      font-size: 16px
+      color: blue
+      font-family: Helvetica
+  - type: state-label
+    entity: sensor.dc_rms1
+    style:
+      top: 13.5%
+      left: 37%
+      background: center / contain no-repeat url("/assets/arsaboo/icons/ecobee_blank.png")
+      text-align: center
+      font-size: 16px
+      color: blue
+      font-family: Helvetica
+  - type: state-label
+    entity: sensor.dc_rms1
+    style:
+      top: 13.5%
+      left: 57%
+      background: center / contain no-repeat url("/assets/arsaboo/icons/ecobee_blank.png")
+      text-align: center
+      font-size: 16px
+      color: blue
+      font-family: Helvetica
+  - type: state-label
+    entity: sensor.dc_rms1
+    style:
+      top: 13.5%
+      left: 77%
+      background: center / contain no-repeat url("/assets/arsaboo/icons/ecobee_blank.png")
+      text-align: center
+      font-size: 16px
+      color: blue
+      font-family: Helvetica
+  - type: state-label
+    entity: sensor.dc_rms1
+    style:
+      top: 13.5%
+      left: 97%
+      background: center / contain no-repeat url("/assets/arsaboo/icons/ecobee_blank.png")
+      text-align: center
+      font-size: 16px
+      color: blue
+      font-family: Helvetica
+  - type: state-label
+    entity: sensor.dc_rms2
+    style:
+      top: 17.3%
+      left: 17%
+      background: center / contain no-repeat url("/assets/arsaboo/icons/ecobee_blank.png")
+      text-align: center
+      font-size: 16px
+      color: blue
+      font-family: Helvetica
+  - type: state-label
+    entity: sensor.dc_rms2
+    style:
+      top: 17.3%
+      left: 37%
+      background: center / contain no-repeat url("/assets/arsaboo/icons/ecobee_blank.png")
+      text-align: center
+      font-size: 16px
+      color: blue
+      font-family: Helvetica
+  - type: state-label
+    entity: sensor.dc_rms2
+    style:
+      top: 17.3%
+      left: 57%
+      background: center / contain no-repeat url("/assets/arsaboo/icons/ecobee_blank.png")
+      text-align: center
+      font-size: 16px
+      color: blue
+      font-family: Helvetica
+  - type: state-label
+    entity: sensor.dc_rms2
+    style:
+      top: 17.3%
+      left: 77%
+      background: center / contain no-repeat url("/assets/arsaboo/icons/ecobee_blank.png")
+      text-align: center
+      font-size: 16px
+      color: blue
+      font-family: Helvetica
+  - type: state-label
+    entity: sensor.dc_rms2
+    style:
+      top: 17.3%
+      left: 97%
+      background: center / contain no-repeat url("/assets/arsaboo/icons/ecobee_blank.png")
+      text-align: center
+      font-size: 16px
+      color: blue
+      font-family: Helvetica
+  - type: state-label
+    entity: sensor.dc_rms3
+    style:
+      top: 20.7%
+      left: 17%
+      background: center / contain no-repeat url("/assets/arsaboo/icons/ecobee_blank.png")
+      text-align: center
+      font-size: 16px
+      color: blue
+      font-family: Helvetica
+  - type: state-label
+    entity: sensor.dc_rms3
+    style:
+      top: 20.7%
+      left: 37%
+      background: center / contain no-repeat url("/assets/arsaboo/icons/ecobee_blank.png")
+      text-align: center
+      font-size: 16px
+      color: blue
+      font-family: Helvetica
+  - type: state-label
+    entity: sensor.dc_rms3
+    style:
+      top: 20.7%
+      left: 57%
+      background: center / contain no-repeat url("/assets/arsaboo/icons/ecobee_blank.png")
+      text-align: center
+      font-size: 16px
+      color: blue
+      font-family: Helvetica
+  - type: state-label
+    entity: sensor.dc_rms3
+    style:
+      top: 20.7%
+      left: 77%
+      background: center / contain no-repeat url("/assets/arsaboo/icons/ecobee_blank.png")
+      text-align: center
+      font-size: 16px
+      color: blue
+      font-family: Helvetica
+  - type: state-label
+    entity: sensor.dc_rms3
+    style:
+      top: 20.7%
+      left: 97%
+      background: center / contain no-repeat url("/assets/arsaboo/icons/ecobee_blank.png")
+      text-align: center
+      font-size: 16px
+      color: blue
+      font-family: Helvetica
+  - type: state-label
+    entity: sensor.dc_active_power1
+    style:
+      top: 24.5%
+      left: 17%
+      background: center / contain no-repeat url("/assets/arsaboo/icons/ecobee_blank.png")
+      text-align: center
+      font-size: 16px
+      color: blue
+      font-family: Helvetica
+  - type: state-label
+    entity: sensor.dc_active_power2
+    style:
+      top: 24.5%
+      left: 37%
+      background: center / contain no-repeat url("/assets/arsaboo/icons/ecobee_blank.png")
+      text-align: center
+      font-size: 16px
+      color: blue
+      font-family: Helvetica
+  - type: state-label
+    entity: sensor.dc_active_power3
+    style:
+      top: 24.5%
+      left: 57%
+      background: center / contain no-repeat url("/assets/arsaboo/icons/ecobee_blank.png")
+      text-align: center
+      font-size: 16px
+      color: blue
+      font-family: Helvetica
+  - type: state-label
+    entity: sensor.dc_active_power1
+    style:
+      top: 24.5%
+      left: 77%
+      background: center / contain no-repeat url("/assets/arsaboo/icons/ecobee_blank.png")
+      text-align: center
+      font-size: 16px
+      color: blue
+      font-family: Helvetica
+  - type: state-label
+    entity: sensor.dc_active_power2
+    style:
+      top: 24.5%
+      left: 97%
+      background: center / contain no-repeat url("/assets/arsaboo/icons/ecobee_blank.png")
+      text-align: center
+      font-size: 16px
+      color: blue
+      font-family: Helvetica
+image: /local/images/DC2_master.png
