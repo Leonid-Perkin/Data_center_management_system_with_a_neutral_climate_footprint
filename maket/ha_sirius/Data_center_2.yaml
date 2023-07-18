@@ -410,4 +410,44 @@ elements:
       font-size: 30px
       color: blue
       font-family: Helvetica
+  - type: state-label
+    entity: sensor.tasmota1_bme280_temperature
+    style:
+      top: 33.5%
+      left: 65%
+      background: center / contain no-repeat url("/assets/arsaboo/icons/ecobee_blank.png")
+      text-align: center
+      font-size: 30px
+      color: blue
+      font-family: Helvetica
+  - type: state-label
+    entity: sensor.tasmota1_bme280_temperature
+    style:
+      top: 33.5%
+      left: 75%
+      background: center / contain no-repeat url("/assets/arsaboo/icons/ecobee_blank.png")
+      text-align: center
+      font-size: 30px
+      color: blue
+      font-family: Helvetica
+  - type: state-label
+    entity: sensor.tasmota1_bme280_temperature
+    style:
+      top: 33.5%
+      left: 85%
+      background: center / contain no-repeat url("/assets/arsaboo/icons/ecobee_blank.png")
+      text-align: center
+      font-size: 30px
+      color: blue
+      font-family: Helvetica
+  - type: state-label
+    entity: sensor.tasmota1_bme280_temperature
+    style:
+      top: 33.5%
+      left: 95%
+      background: center / contain no-repeat url("/assets/arsaboo/icons/ecobee_blank.png")
+      text-align: center
+      font-size: 30px
+      color: blue
+      font-family: Helvetica
 image: /local/images/DC2_master.png
