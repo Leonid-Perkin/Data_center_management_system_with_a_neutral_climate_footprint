@@ -15,6 +15,14 @@ topic7 = "python/DC_Rms3"
 topic8 = "python/DC_Active_power1"
 topic9 = "python/DC_Active_power2"
 topic10 = "python/DC_Active_power3"
+
+topic11 = "python/HU_Pressure1"
+topic12 = "python/HU_Pressure2"
+topic13 = "python/HU_Temperature1"
+topic14 = "python/HU_Temperature2"
+topic15 = "python/HU_Termal_energy"
+topic16 = "python/HU_Water"
+
 client_id = f'python-mqtt-{random.randint(0, 1000)}'
 username = 'rosatom'
 password = 'rosatom'
@@ -35,17 +43,17 @@ def connect_mqtt():
 
 def publish(client,data):
     while True:
-        for i in data:
-            result = client.publish(topic1, i[0])
-            result = client.publish(topic2, i[1])
-            result = client.publish(topic3, i[2])
-            result = client.publish(topic4, i[3])
-            result = client.publish(topic5, i[4])
-            result = client.publish(topic6, i[5])
-            result = client.publish(topic7, i[6])
-            result = client.publish(topic8, i[7])
-            result = client.publish(topic9, i[8])
-            result = client.publish(topic10, i[9])
+        for i in range(len(data)):
+            result = client.publish(topic1, data[i][0])
+            result = client.publish(topic2, data[i][1])
+            result = client.publish(topic3, data[i][2])
+            result = client.publish(topic4, data[i][3])
+            result = client.publish(topic5, data[i][4])
+            result = client.publish(topic6, data[i][5])
+            result = client.publish(topic7, data[i][6])
+            result = client.publish(topic8, data[i][7])
+            result = client.publish(topic9, data[i][8])
+            result = client.publish(topic10, data[i][9])
             time.sleep(3)
 
 
@@ -60,6 +68,7 @@ def main():
             a = ','.join(row)
             b = a.split(',')
             fake_data.append(b)
+    #print(len(fake_data[0]))
     publish(client,fake_data)
 
 
