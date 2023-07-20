@@ -60,3 +60,8 @@ mqtt:
     - name: "hu_water"
       state_topic: "python/HU_Water"
       unit_of_measurement: "м³"
+climate:
+  - platform: generic_thermostat
+    name: Термостат
+    heater: switch.2_switch_2
+    target_sensor: sensor.tasmota2_bme280_temperature
