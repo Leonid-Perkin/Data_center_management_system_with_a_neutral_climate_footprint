@@ -2303,14 +2303,10 @@ views:
             entity: climate.termostat
       - type: entities
         entities:
-          - sensor.tz3000_gvn91tmx_ts011f_active_power
-          - sensor.tz3000_gvn91tmx_ts011f_rms_current
-          - sensor.tz3000_gvn91tmx_ts011f_rms_voltage
-          - sensor.tz3000_gvn91tmx_ts011f_summation_delivered
-          - sensor.2_active_power_2
-          - sensor.2_rms_current_2
-          - sensor.2_rms_voltage_2
-          - sensor.2_summation_delivered_2
+          - entity: sensor.tz3000_gvn91tmx_ts011f_active_power
+          - entity: sensor.tz3000_gvn91tmx_ts011f_summation_delivered
+          - entity: sensor.2_active_power_2
+          - entity: sensor.2_summation_delivered_2
         view_layout:
           position: sidebar
       - type: horizontal-stack
@@ -2327,6 +2323,22 @@ views:
             detail: 2
             hours_to_show: 24
             name: Температура Спальня
+      - type: vertical-stack
+        cards:
+          - graph: line
+            type: sensor
+            entity: sensor.tz3000_gvn91tmx_ts011f_rms_voltage
+            detail: 2
+            hours_to_show: 24
+            name: Розетка 1
+          - graph: line
+            type: sensor
+            detail: 2
+            hours_to_show: 24
+            entity: sensor.2_rms_voltage_2
+            name: Розетка 2
+        view_layout:
+          position: sidebar
   - title: Результат
     path: ''
     badges: []
