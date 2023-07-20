@@ -63,8 +63,8 @@ def publish(client,data_DC,data_HU):
             result = client.publish(topic12, data_HU[i][1]) #HU_Pressure2
             result = client.publish(topic13, data_HU[i][2]) #HU_Temperature1
             result = client.publish(topic14, data_HU[i][3]) #HU_Temperature2
-            result = client.publish(topic15, data_HU[i][2]) #HU_Termal_energy
-            result = client.publish(topic16, data_HU[i][3]) #HU_HU_Water
+            result = client.publish(topic15, data_HU[i][4]) #HU_Termal_energy
+            result = client.publish(topic16, data_HU[i][5]) #HU_HU_Water
             time.sleep(3)
 
 
