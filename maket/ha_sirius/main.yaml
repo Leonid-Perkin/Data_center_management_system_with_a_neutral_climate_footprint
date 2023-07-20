@@ -2098,15 +2098,40 @@ views:
               color: blue
               font-family: Helvetica
         image: /local/images/DC2_master2.png
-      - type: picture-entity
-        show_name: false
-        show_state: false
+      - type: picture-elements
+        elements:
+          - type: state-badge
+            entity: sensor.tasmota1_bme280_temperature
+            style:
+              top: 90%
+              left: 60%
+              color: rgba(0,0,0,0)
+          - type: state-badge
+            entity: sensor.ewelink_th01_temperature
+            style:
+              top: 45%
+              left: 60%
+              color: rgba(0,0,0,0)
+          - type: state-badge
+            entity: sensor.hu_temperature1
+            style:
+              top: 25.5%
+              left: 66%
+              color: rgba(0,0,0,0)
+          - type: state-badge
+            entity: sensor.hu_temperature1
+            style:
+              top: 16%
+              left: 66%
+              color: rgba(0,0,0,0)
         entity: switch.tz3000_gvn91tmx_ts011f_switch
         state_image:
           'on': /local/images/DC3/on.png
           'off': /local/images/DC3/off.png
-        tap_action:
-          action: toggle
+        image: /local/images/on.png
+      - type: entities
+        entities:
+          - switch.tz3000_gvn91tmx_ts011f_switch
   - title: ТЕПЛОВОЙ РАСПРЕДЕЛИТЕЛЬНЫЙ УЗЕЛ
     path: ''
     type: sidebar
@@ -2189,122 +2214,123 @@ views:
           - type: state-badge
             entity: sensor.hu_temperature1
             style:
-              top: 39%
+              top: 42%
               left: 42%
-              font-family: Helvetica
+              color: rgba(0,0,0,0)
+          - type: state-badge
+            entity: sensor.hu_pressure1
+            style:
+              top: 42%
+              left: 35%
+              color: rgba(0,0,0,0)
           - type: state-badge
             entity: sensor.hu_temperature2
             style:
               top: 56%
               left: 42%
-              font-family: Helvetica
+              color: rgba(0,0,0,0)
+          - type: state-badge
+            entity: sensor.hu_pressure2
+            style:
+              top: 56%
+              left: 35%
+              color: rgba(0,0,0,0)
         image: /local/images/Heating_unit1.png
   - title: Домовой потребитель
+    type: sidebar
     badges: []
     cards:
-      - type: picture-elements
-        elements:
-          - type: state-badge
-            entity: sensor.sun_next_midnight
-            style:
-              top: 70%
-              left: 80%
-        entity: switch.tz3000_gvn91tmx_ts011f_switch
-        state_image:
-          'on': /local/images/DC3/on.png
-          'off': /local/images/DC3/off.png
-        tap_action:
-          action: toggle
+      - type: horizontal-stack
+        cards:
+          - type: picture-elements
+            elements:
+              - type: state-label
+                entity: sensor.tasmota1_bme280_temperature
+                style:
+                  top: 29%
+                  left: 36.5%
+                  background: >-
+                    center / contain no-repeat
+                    url("/assets/arsaboo/icons/ecobee_blank.png")
+                  text-align: center
+                  font-size: 20px
+                  color: Black
+                  font-family: Helvetica
+              - type: state-label
+                entity: sensor.tasmota2_bme280_temperature
+                style:
+                  top: 70%
+                  left: 46%
+                  background: >-
+                    center / contain no-repeat
+                    url("/assets/arsaboo/icons/ecobee_blank.png")
+                  text-align: center
+                  font-size: 20px
+                  color: Black
+                  font-family: Helvetica
+              - type: state-badge
+                entity: sensor.xiaomi_lumi_sen_ill_mgl01_illuminance
+                style:
+                  top: 63%
+                  left: 45%
+                  color: rgba(0,0,0,0)
+              - type: state-badge
+                entity: sensor.ewelink_th01_humidity
+                style:
+                  top: 53%
+                  left: 7%
+                  color: rgba(0,0,0,0)
+              - type: state-badge
+                entity: sensor.tasmota1_analog_illuminance1
+                style:
+                  top: 25%
+                  left: 36.5%
+                  color: rgba(0,0,0,0)
+              - type: state-badge
+                entity: switch.tz3000_gvn91tmx_ts011f_switch
+                style:
+                  top: 20%
+                  left: 80%
+                  color: rgba(0,0,0,0)
+              - type: state-icon
+                entity: binary_sensor.tz3000_oxslv1c9_ts0203_opening
+                style:
+                  top: 90%
+                  left: 82.2%
+                  color: rgba(0,0,0,0)
+            image: /local/images/dom.png
+          - type: thermostat
+            entity: climate.termostat
       - type: entities
         entities:
-          - select.2_backlight_mode_2
-          - switch.2_child_lock_2
-          - button.2_identify_2
-          - select.2_power_on_state_2
-          - switch.2_switch_2
-          - sensor.2_active_power_2
-          - sensor.2_power_factor_2
-          - sensor.2_rms_current_2
-          - sensor.2_rms_voltage_2
-          - sensor.2_summation_delivered_2
-      - type: entities
-        entities:
-          - select.tz3000_gvn91tmx_ts011f_backlight_mode
-          - switch.tz3000_gvn91tmx_ts011f_child_lock
-          - button.tz3000_gvn91tmx_ts011f_identify
-          - select.tz3000_gvn91tmx_ts011f_power_on_state
-          - switch.tz3000_gvn91tmx_ts011f_switch
           - sensor.tz3000_gvn91tmx_ts011f_active_power
-          - sensor.tz3000_gvn91tmx_ts011f_power_factor
           - sensor.tz3000_gvn91tmx_ts011f_rms_current
           - sensor.tz3000_gvn91tmx_ts011f_rms_voltage
           - sensor.tz3000_gvn91tmx_ts011f_summation_delivered
-      - type: entities
-        entities:
-          - button.tz3000_oxslv1c9_ts0203_identify
-          - sensor.tz3000_oxslv1c9_ts0203_battery
-          - binary_sensor.tz3000_oxslv1c9_ts0203_opening
-          - binary_sensor.tz3000_oxslv1c9_ts0203_opening_2
-      - type: entities
-        entities:
-          - button.xiaomi_lumi_sen_ill_mgl01_identify
-          - sensor.xiaomi_lumi_sen_ill_mgl01_battery
-          - sensor.xiaomi_lumi_sen_ill_mgl01_illuminance
-      - type: entities
-        entities:
-          - button.ewelink_th01_identify
-          - sensor.ewelink_th01_battery
-          - sensor.ewelink_th01_humidity
-          - sensor.ewelink_th01_temperature
-      - type: entities
-        entities:
-          - sensor.tasmota1_analog_illuminance1
-          - sensor.tasmota1_bme280_dewpoint
-          - sensor.tasmota1_bme280_humidity
-          - sensor.tasmota1_bme280_pressure
-          - sensor.tasmota1_bme280_temperature
-  - title: Графики
-    path: ''
-    badges: []
-    cards:
-      - graph: line
-        type: sensor
-        entity: sensor.tasmota1_analog_illuminance1
-        detail: 2
-      - graph: line
-        type: sensor
-        entity: sensor.tasmota1_bme280_dewpoint
-        detail: 2
-      - graph: line
-        type: sensor
-        entity: sensor.tasmota1_bme280_humidity
-        detail: 2
-      - graph: line
-        type: sensor
-        entity: sensor.tasmota1_bme280_pressure
-        detail: 2
-      - graph: line
-        type: sensor
-        entity: sensor.tasmota1_bme280_temperature
-        detail: 2
-      - graph: line
-        type: sensor
-        entity: sensor.ewelink_th01_humidity
-        detail: 2
-        name: 'Влажность '
-      - graph: line
-        type: sensor
-        entity: sensor.ewelink_th01_temperature
-        detail: 2
-        name: Температура
+          - sensor.2_active_power_2
+          - sensor.2_rms_current_2
+          - sensor.2_rms_voltage_2
+          - sensor.2_summation_delivered_2
+        view_layout:
+          position: sidebar
+      - type: horizontal-stack
+        cards:
+          - graph: line
+            type: sensor
+            entity: sensor.tasmota2_bme280_temperature
+            detail: 2
+            hours_to_show: 24
+            name: Температура Гостиная
+          - graph: line
+            type: sensor
+            entity: sensor.tasmota2_bme280_temperature
+            detail: 2
+            hours_to_show: 24
+            name: Температура Спальня
   - title: Результат
     path: ''
     badges: []
     cards:
-      - camera_view: auto
-        type: picture-glance
-        image: /local/background-animations/4Seasons.gif
-        entities: []
       - type: horizontal-stack
         cards:
           - type: entities
