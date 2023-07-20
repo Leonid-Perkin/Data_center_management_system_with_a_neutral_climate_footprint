@@ -1,0 +1,2314 @@
+views:
+  - title: Система вентиляции ЦОДа
+    path: ''
+    type: sidebar
+    badges: []
+    cards:
+      - type: picture-elements
+        elements:
+          - type: state-label
+            entity: sensor.tasmota1_bme280_temperature
+            style:
+              top: 25%
+              left: 55.5%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 42px
+              color: Black
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.ewelink_th01_temperature
+            style:
+              top: 25%
+              left: 68%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 42px
+              color: Black
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_humiditly1
+            style:
+              top: 53%
+              left: 63%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 60px
+              color: Black
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_voltage1
+            style:
+              top: 37%
+              left: 86.5%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 16px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_voltage1
+            style:
+              top: 37%
+              left: 91.5%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 16px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_voltage1
+            style:
+              top: 37%
+              left: 97%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 16px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_voltage2
+            style:
+              top: 41%
+              left: 86.5%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 16px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_voltage2
+            style:
+              top: 41%
+              left: 91.5%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 16px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_voltage2
+            style:
+              top: 41%
+              left: 97%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 16px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_voltage3
+            style:
+              top: 45%
+              left: 86.5%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 16px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_voltage3
+            style:
+              top: 45%
+              left: 91.5%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 16px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_voltage3
+            style:
+              top: 45%
+              left: 97%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 16px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_rms1
+            style:
+              top: 49%
+              left: 86.5%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 16px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_rms1
+            style:
+              top: 49%
+              left: 91.5%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 16px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_rms1
+            style:
+              top: 49%
+              left: 97%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 16px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_rms2
+            style:
+              top: 53%
+              left: 86.5%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 16px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_rms2
+            style:
+              top: 53%
+              left: 91.5%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 16px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_rms2
+            style:
+              top: 53%
+              left: 97%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 16px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_rms3
+            style:
+              top: 56.5%
+              left: 86.5%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 16px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_rms3
+            style:
+              top: 56.5%
+              left: 91.5%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 16px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_rms3
+            style:
+              top: 56.5%
+              left: 97%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 16px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_active_power1
+            style:
+              top: 60.5%
+              left: 86.5%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 16px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_active_power1
+            style:
+              top: 60.5%
+              left: 91.5%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 16px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_active_power2
+            style:
+              top: 60.5%
+              left: 97%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 16px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.ewelink_th01_temperature
+            style:
+              top: 78.2%
+              left: 23.5%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 20px
+              color: green
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.ewelink_th01_temperature
+            style:
+              top: 78.2%
+              left: 31.5%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 20px
+              color: green
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.ewelink_th01_temperature
+            style:
+              top: 78.2%
+              left: 40%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 20px
+              color: green
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.ewelink_th01_temperature
+            style:
+              top: 78.2%
+              left: 48%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 20px
+              color: green
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.ewelink_th01_temperature
+            style:
+              top: 78.2%
+              left: 55.5%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 20px
+              color: green
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.ewelink_th01_temperature
+            style:
+              top: 78.2%
+              left: 63.5%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 20px
+              color: green
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.ewelink_th01_temperature
+            style:
+              top: 78.2%
+              left: 71.5%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 20px
+              color: green
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.ewelink_th01_temperature
+            style:
+              top: 78.2%
+              left: 79.5%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 20px
+              color: green
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.ewelink_th01_temperature
+            style:
+              top: 78.2%
+              left: 87.5%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 20px
+              color: green
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.ewelink_th01_temperature
+            style:
+              top: 78.2%
+              left: 95.5%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 20px
+              color: green
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.tasmota1_bme280_temperature
+            style:
+              top: 84.5%
+              left: 23.5%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 20px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.tasmota1_bme280_temperature
+            style:
+              top: 84.5%
+              left: 31.5%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 20px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.tasmota1_bme280_temperature
+            style:
+              top: 84.5%
+              left: 40%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 20px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.tasmota1_bme280_temperature
+            style:
+              top: 84.5%
+              left: 48%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 20px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.tasmota1_bme280_temperature
+            style:
+              top: 84.5%
+              left: 55.5%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 20px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.tasmota1_bme280_temperature
+            style:
+              top: 84.5%
+              left: 63.5%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 20px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.tasmota1_bme280_temperature
+            style:
+              top: 84.5%
+              left: 71.5%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 20px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.tasmota1_bme280_temperature
+            style:
+              top: 84.5%
+              left: 79.5%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 20px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.tasmota1_bme280_temperature
+            style:
+              top: 84.5%
+              left: 87.5%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 20px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.tasmota1_bme280_temperature
+            style:
+              top: 84.5%
+              left: 95.5%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 20px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.tasmota1_bme280_temperature
+            style:
+              top: 90.5%
+              left: 23.5%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 20px
+              color: green
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.tasmota1_bme280_temperature
+            style:
+              top: 90.5%
+              left: 31.5%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 20px
+              color: green
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.tasmota1_bme280_temperature
+            style:
+              top: 90.5%
+              left: 40%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 20px
+              color: green
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.tasmota1_bme280_temperature
+            style:
+              top: 90.5%
+              left: 48%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 20px
+              color: green
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.tasmota1_bme280_temperature
+            style:
+              top: 90.5%
+              left: 55.5%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 20px
+              color: green
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.tasmota1_bme280_temperature
+            style:
+              top: 90.5%
+              left: 63.5%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 20px
+              color: green
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.tasmota1_bme280_temperature
+            style:
+              top: 90.5%
+              left: 71.5%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 20px
+              color: green
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.tasmota1_bme280_temperature
+            style:
+              top: 90.5%
+              left: 79.5%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 20px
+              color: green
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.tasmota1_bme280_temperature
+            style:
+              top: 90.5%
+              left: 87.5%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 20px
+              color: green
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.tasmota1_bme280_temperature
+            style:
+              top: 90.5%
+              left: 95.5%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 20px
+              color: green
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_humiditly1
+            style:
+              top: 96.5%
+              left: 23.5%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 20px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_humiditly1
+            style:
+              top: 96.5%
+              left: 31.5%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 20px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_humiditly1
+            style:
+              top: 96.5%
+              left: 40%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 20px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_humiditly1
+            style:
+              top: 96.5%
+              left: 48%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 20px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_humiditly1
+            style:
+              top: 96.5%
+              left: 55.5%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 20px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_humiditly1
+            style:
+              top: 96.5%
+              left: 63.5%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 20px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_humiditly1
+            style:
+              top: 96.5%
+              left: 71.5%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 20px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_humiditly1
+            style:
+              top: 96.5%
+              left: 79.5%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 20px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_humiditly1
+            style:
+              top: 96.5%
+              left: 87.5%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 20px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_humiditly1
+            style:
+              top: 96.5%
+              left: 95.5%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 20px
+              color: blue
+              font-family: Helvetica
+        image: /local/images/DC_master.png
+      - type: picture-elements
+        elements:
+          - type: state-label
+            entity: sensor.dc_voltage1
+            style:
+              top: 3%
+              left: 17%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 16px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_voltage1
+            style:
+              top: 3%
+              left: 37%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 16px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_voltage1
+            style:
+              top: 3%
+              left: 57%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 16px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_voltage1
+            style:
+              top: 3%
+              left: 77%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 16px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_voltage1
+            style:
+              top: 3%
+              left: 97%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 16px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_voltage2
+            style:
+              top: 6.7%
+              left: 17%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 16px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_voltage2
+            style:
+              top: 6.7%
+              left: 37%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 16px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_voltage2
+            style:
+              top: 6.7%
+              left: 57%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 16px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_voltage2
+            style:
+              top: 6.7%
+              left: 77%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 16px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_voltage2
+            style:
+              top: 6.7%
+              left: 97%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 16px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_voltage3
+            style:
+              top: 10%
+              left: 17%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 16px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_voltage3
+            style:
+              top: 10%
+              left: 37%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 16px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_voltage3
+            style:
+              top: 10%
+              left: 57%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 16px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_voltage3
+            style:
+              top: 10%
+              left: 77%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 16px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_voltage3
+            style:
+              top: 10%
+              left: 97%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 16px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_rms1
+            style:
+              top: 13.5%
+              left: 17%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 16px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_rms1
+            style:
+              top: 13.5%
+              left: 37%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 16px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_rms1
+            style:
+              top: 13.5%
+              left: 57%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 16px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_rms1
+            style:
+              top: 13.5%
+              left: 77%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 16px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_rms1
+            style:
+              top: 13.5%
+              left: 97%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 16px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_rms2
+            style:
+              top: 17.3%
+              left: 17%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 16px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_rms2
+            style:
+              top: 17.3%
+              left: 37%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 16px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_rms2
+            style:
+              top: 17.3%
+              left: 57%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 16px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_rms2
+            style:
+              top: 17.3%
+              left: 77%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 16px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_rms2
+            style:
+              top: 17.3%
+              left: 97%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 16px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_rms3
+            style:
+              top: 20.7%
+              left: 17%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 16px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_rms3
+            style:
+              top: 20.7%
+              left: 37%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 16px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_rms3
+            style:
+              top: 20.7%
+              left: 57%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 16px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_rms3
+            style:
+              top: 20.7%
+              left: 77%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 16px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_rms3
+            style:
+              top: 20.7%
+              left: 97%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 16px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_active_power1
+            style:
+              top: 24.5%
+              left: 17%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 16px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_active_power2
+            style:
+              top: 24.5%
+              left: 37%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 16px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_active_power3
+            style:
+              top: 24.5%
+              left: 57%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 16px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_active_power1
+            style:
+              top: 24.5%
+              left: 77%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 16px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_active_power2
+            style:
+              top: 24.5%
+              left: 97%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 16px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.tasmota1_bme280_temperature
+            style:
+              top: 33.5%
+              left: 5%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 30px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.tasmota1_bme280_temperature
+            style:
+              top: 33.5%
+              left: 15%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 30px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.tasmota1_bme280_temperature
+            style:
+              top: 33.5%
+              left: 25%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 30px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.tasmota1_bme280_temperature
+            style:
+              top: 33.5%
+              left: 35%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 30px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.tasmota1_bme280_temperature
+            style:
+              top: 33.5%
+              left: 45%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 30px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.tasmota1_bme280_temperature
+            style:
+              top: 33.5%
+              left: 55%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 30px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.tasmota1_bme280_temperature
+            style:
+              top: 33.5%
+              left: 65%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 30px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.tasmota1_bme280_temperature
+            style:
+              top: 33.5%
+              left: 75%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 30px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.tasmota1_bme280_temperature
+            style:
+              top: 33.5%
+              left: 85%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 30px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.tasmota1_bme280_temperature
+            style:
+              top: 33.5%
+              left: 95%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 30px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.tasmota1_bme280_temperature
+            style:
+              top: 44.5%
+              left: 5%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 30px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_humiditly1
+            style:
+              top: 44.5%
+              left: 15%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 30px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.tasmota1_bme280_temperature
+            style:
+              top: 44.5%
+              left: 25%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 30px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_humiditly1
+            style:
+              top: 44.5%
+              left: 35%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 30px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.tasmota1_bme280_temperature
+            style:
+              top: 44.5%
+              left: 45%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 30px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_humiditly1
+            style:
+              top: 44.5%
+              left: 55%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 30px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.tasmota1_bme280_temperature
+            style:
+              top: 44.5%
+              left: 65%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 30px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_humiditly1
+            style:
+              top: 44.5%
+              left: 75%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 30px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.tasmota1_bme280_temperature
+            style:
+              top: 44.5%
+              left: 85%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 30px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_humiditly1
+            style:
+              top: 44.5%
+              left: 95%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 30px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_voltage1
+            style:
+              top: 53%
+              left: 17%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 16px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_voltage1
+            style:
+              top: 53%
+              left: 37%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 16px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_voltage1
+            style:
+              top: 53%
+              left: 57%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 16px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_voltage1
+            style:
+              top: 53%
+              left: 77%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 16px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_voltage1
+            style:
+              top: 53%
+              left: 97%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 16px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_voltage2
+            style:
+              top: 56.5%
+              left: 17%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 16px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_voltage2
+            style:
+              top: 56.5%
+              left: 37%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 16px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_voltage2
+            style:
+              top: 56.5%
+              left: 57%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 16px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_voltage2
+            style:
+              top: 56.5%
+              left: 77%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 16px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_voltage2
+            style:
+              top: 56.5%
+              left: 97%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 16px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_voltage3
+            style:
+              top: 60%
+              left: 17%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 16px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_voltage3
+            style:
+              top: 60%
+              left: 37%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 16px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_voltage3
+            style:
+              top: 60%
+              left: 57%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 16px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_voltage3
+            style:
+              top: 60%
+              left: 77%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 16px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_voltage3
+            style:
+              top: 60%
+              left: 97%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 16px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_rms1
+            style:
+              top: 63.5%
+              left: 17%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 16px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_rms1
+            style:
+              top: 63.5%
+              left: 37%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 16px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_rms1
+            style:
+              top: 63.5%
+              left: 57%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 16px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_rms1
+            style:
+              top: 63.5%
+              left: 77%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 16px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_rms1
+            style:
+              top: 63.5%
+              left: 97%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 16px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_rms2
+            style:
+              top: 67.3%
+              left: 17%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 16px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_rms2
+            style:
+              top: 67.3%
+              left: 37%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 16px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_rms2
+            style:
+              top: 67.3%
+              left: 57%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 16px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_rms2
+            style:
+              top: 67.3%
+              left: 77%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 16px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_rms2
+            style:
+              top: 67.3%
+              left: 97%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 16px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_rms3
+            style:
+              top: 70.7%
+              left: 17%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 16px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_rms3
+            style:
+              top: 70.7%
+              left: 37%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 16px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_rms3
+            style:
+              top: 70.7%
+              left: 57%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 16px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_rms3
+            style:
+              top: 70.7%
+              left: 77%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 16px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_rms3
+            style:
+              top: 70.7%
+              left: 97%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 16px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_active_power3
+            style:
+              top: 74.5%
+              left: 17%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 16px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_active_power1
+            style:
+              top: 74.5%
+              left: 37%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 16px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_active_power2
+            style:
+              top: 74.5%
+              left: 57%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 16px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_active_power3
+            style:
+              top: 74.5%
+              left: 77%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 16px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_active_power1
+            style:
+              top: 74.5%
+              left: 97%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 16px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.tasmota1_bme280_temperature
+            style:
+              top: 83.5%
+              left: 5%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 30px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.tasmota1_bme280_temperature
+            style:
+              top: 83.5%
+              left: 15%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 30px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.tasmota1_bme280_temperature
+            style:
+              top: 83.5%
+              left: 25%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 30px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.tasmota1_bme280_temperature
+            style:
+              top: 83.5%
+              left: 35%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 30px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.tasmota1_bme280_temperature
+            style:
+              top: 83.5%
+              left: 45%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 30px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.tasmota1_bme280_temperature
+            style:
+              top: 83.5%
+              left: 55%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 30px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.tasmota1_bme280_temperature
+            style:
+              top: 83.5%
+              left: 65%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 30px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.tasmota1_bme280_temperature
+            style:
+              top: 83.5%
+              left: 75%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 30px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.tasmota1_bme280_temperature
+            style:
+              top: 83.5%
+              left: 85%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 30px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.tasmota1_bme280_temperature
+            style:
+              top: 83.5%
+              left: 95%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 30px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.tasmota1_bme280_temperature
+            style:
+              top: 94.5%
+              left: 5%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 30px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_humiditly1
+            style:
+              top: 94.5%
+              left: 15%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 30px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.tasmota1_bme280_temperature
+            style:
+              top: 94.5%
+              left: 25%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 30px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_humiditly1
+            style:
+              top: 94.5%
+              left: 35%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 30px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.tasmota1_bme280_temperature
+            style:
+              top: 94.5%
+              left: 45%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 30px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_humiditly1
+            style:
+              top: 94.5%
+              left: 55%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 30px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.tasmota1_bme280_temperature
+            style:
+              top: 94.5%
+              left: 65%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 30px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_humiditly1
+            style:
+              top: 94.5%
+              left: 75%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 30px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.tasmota1_bme280_temperature
+            style:
+              top: 94.5%
+              left: 85%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 30px
+              color: blue
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.dc_humiditly1
+            style:
+              top: 94.5%
+              left: 95%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 30px
+              color: blue
+              font-family: Helvetica
+        image: /local/images/DC2_master2.png
+      - type: picture-entity
+        show_name: false
+        show_state: false
+        entity: switch.tz3000_gvn91tmx_ts011f_switch
+        state_image:
+          'on': /local/images/DC3/on.png
+          'off': /local/images/DC3/off.png
+        tap_action:
+          action: toggle
+  - title: ТЕПЛОВОЙ РАСПРЕДЕЛИТЕЛЬНЫЙ УЗЕЛ
+    path: ''
+    type: sidebar
+    badges: []
+    cards:
+      - type: picture-elements
+        elements:
+          - type: state-label
+            entity: sensor.hu_temperature1
+            style:
+              top: 29%
+              left: 69.5%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 50px
+              color: Black
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.hu_temperature2
+            style:
+              top: 29%
+              left: 89.3%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 50px
+              color: Black
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.hu_pressure1
+            style:
+              top: 78%
+              left: 69.5%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 50px
+              color: Black
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.hu_pressure2
+            style:
+              top: 78%
+              left: 89.3%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 50px
+              color: Black
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.hu_water
+            style:
+              top: 87%
+              left: 22%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 35px
+              color: Black
+              font-family: Helvetica
+          - type: state-label
+            entity: sensor.hu_termal_energy
+            style:
+              top: 87%
+              left: 51.5%
+              background: >-
+                center / contain no-repeat
+                url("/assets/arsaboo/icons/ecobee_blank.png")
+              text-align: center
+              font-size: 35px
+              color: Black
+              font-family: Helvetica
+          - type: state-badge
+            entity: sensor.hu_temperature1
+            style:
+              top: 39%
+              left: 42%
+              font-family: Helvetica
+          - type: state-badge
+            entity: sensor.hu_temperature2
+            style:
+              top: 56%
+              left: 42%
+              font-family: Helvetica
+        image: /local/images/Heating_unit1.png
+  - title: Домовой потребитель
+    badges: []
+    cards:
+      - type: picture-elements
+        elements:
+          - type: state-badge
+            entity: sensor.sun_next_midnight
+            style:
+              top: 70%
+              left: 80%
+        entity: switch.tz3000_gvn91tmx_ts011f_switch
+        state_image:
+          'on': /local/images/DC3/on.png
+          'off': /local/images/DC3/off.png
+        tap_action:
+          action: toggle
+      - type: entities
+        entities:
+          - select.2_backlight_mode_2
+          - switch.2_child_lock_2
+          - button.2_identify_2
+          - select.2_power_on_state_2
+          - switch.2_switch_2
+          - sensor.2_active_power_2
+          - sensor.2_power_factor_2
+          - sensor.2_rms_current_2
+          - sensor.2_rms_voltage_2
+          - sensor.2_summation_delivered_2
+      - type: entities
+        entities:
+          - select.tz3000_gvn91tmx_ts011f_backlight_mode
+          - switch.tz3000_gvn91tmx_ts011f_child_lock
+          - button.tz3000_gvn91tmx_ts011f_identify
+          - select.tz3000_gvn91tmx_ts011f_power_on_state
+          - switch.tz3000_gvn91tmx_ts011f_switch
+          - sensor.tz3000_gvn91tmx_ts011f_active_power
+          - sensor.tz3000_gvn91tmx_ts011f_power_factor
+          - sensor.tz3000_gvn91tmx_ts011f_rms_current
+          - sensor.tz3000_gvn91tmx_ts011f_rms_voltage
+          - sensor.tz3000_gvn91tmx_ts011f_summation_delivered
+      - type: entities
+        entities:
+          - button.tz3000_oxslv1c9_ts0203_identify
+          - sensor.tz3000_oxslv1c9_ts0203_battery
+          - binary_sensor.tz3000_oxslv1c9_ts0203_opening
+          - binary_sensor.tz3000_oxslv1c9_ts0203_opening_2
+      - type: entities
+        entities:
+          - button.xiaomi_lumi_sen_ill_mgl01_identify
+          - sensor.xiaomi_lumi_sen_ill_mgl01_battery
+          - sensor.xiaomi_lumi_sen_ill_mgl01_illuminance
+      - type: entities
+        entities:
+          - button.ewelink_th01_identify
+          - sensor.ewelink_th01_battery
+          - sensor.ewelink_th01_humidity
+          - sensor.ewelink_th01_temperature
+      - type: entities
+        entities:
+          - sensor.tasmota1_analog_illuminance1
+          - sensor.tasmota1_bme280_dewpoint
+          - sensor.tasmota1_bme280_humidity
+          - sensor.tasmota1_bme280_pressure
+          - sensor.tasmota1_bme280_temperature
+  - title: Графики
+    path: ''
+    badges: []
+    cards:
+      - graph: line
+        type: sensor
+        entity: sensor.tasmota1_analog_illuminance1
+        detail: 2
+      - graph: line
+        type: sensor
+        entity: sensor.tasmota1_bme280_dewpoint
+        detail: 2
+      - graph: line
+        type: sensor
+        entity: sensor.tasmota1_bme280_humidity
+        detail: 2
+      - graph: line
+        type: sensor
+        entity: sensor.tasmota1_bme280_pressure
+        detail: 2
+      - graph: line
+        type: sensor
+        entity: sensor.tasmota1_bme280_temperature
+        detail: 2
+      - graph: line
+        type: sensor
+        entity: sensor.ewelink_th01_humidity
+        detail: 2
+        name: 'Влажность '
+      - graph: line
+        type: sensor
+        entity: sensor.ewelink_th01_temperature
+        detail: 2
+        name: Температура
+  - title: Результат
+    path: ''
+    badges: []
+    cards:
+      - camera_view: auto
+        type: picture-glance
+        image: /local/background-animations/4Seasons.gif
+        entities: []
+      - type: horizontal-stack
+        cards:
+          - type: entities
+            entities:
+              - sensor.local_ip
+              - sensor.sun_next_dawn
+              - sensor.sun_next_dusk
