@@ -3,9 +3,9 @@ import time
 import csv
 from paho.mqtt import client as mqtt_client
 
-#broker = '10.3.141.89'
+broker = '10.3.141.89'
 #port = 1883
-broker = 'localhost'
+#broker = 'localhost'
 port = 1883
 #DC
 topic1 = "python/DC_Voltage1"
