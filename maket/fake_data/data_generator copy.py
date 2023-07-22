@@ -11,4 +11,4 @@ with open("test.csv", "w", newline='') as file:
         writer.writerow([a,b,round(c, 2)])
         a+=1
         b+=1
-        c+=1.1
+        c-=1.1

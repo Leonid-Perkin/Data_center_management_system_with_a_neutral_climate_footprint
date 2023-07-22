@@ -23,7 +23,7 @@ def connect_mqtt():
         else:
             print("Failed to connect, return code %dn", rc)
 
-    client = mqtt_client.Client("Python3")
+    client = mqtt_client.Client("test")
     client.username_pw_set(username, password)
     client.on_connect = on_connect
     client.connect(broker, port)
