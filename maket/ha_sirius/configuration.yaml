@@ -60,6 +60,15 @@ mqtt:
     - name: "hu_water"
       state_topic: "python/HU_Water"
       unit_of_measurement: "м³"
+    - name: "year"
+      state_topic: "python/year"
+    - name: "Recycled_heat"
+      state_topic: "python/Recycled_heat"
+      unit_of_measurement: "TWh"
+    - name: "Emissions"
+      state_topic: "python/Emissions"
+      unit_of_measurement: "MTco2"
+
 climate:
   - platform: generic_thermostat
     name: Термостат
